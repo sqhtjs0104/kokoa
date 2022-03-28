@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to KokoaTalk</title>
+    <meta name="description" content="Nomad Coder Coding Challange - HTML-CSS" />
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/clock.js"></script>
+</head>
+<body>
+    <div class="statusBar">
+        <div class="statusBar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="statusBar__column">
+            <span id="nowTime">00:00</span>
+        </div>
+        <div class="statusBar__column">
+            <span>100%</span>
+            <!-- Extension plan: Interlock System Battery -->
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="welcomeHeader">
+        <h1 class="welcomeHeader__title">Welcome to kokoa Clone</h1>
+        <p class="welcomeHeader__text">If you have a Kokoa Account,</p>
+        <p class="welcomeHeader__text">log in with your email or phone number.</p>
+    </header>
+
+    <main>
+        <form action="friends.html" method="get" id="loginForm">
+            <input name="username" type="text" placeholder="Email or phone number" />
+            <input name="password" type="password" placeholder="password" />
+            <input type="submit" value="Log In" />
+            <input type="button" value="Sign Up" />
+            <a href="#">Find Kokoa Account or Password</a>
+        </form>
+    </main>
+
+    <div id="noMobile">
+        <span>Your screen width is too big :/</span>
+        <br>
+        <span>Please make screen to portrait mobile size :)</span>
+    </div>
+
+    <script type="text/javascript">whatTimeIsNow();</script>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>
