@@ -6,8 +6,3 @@
 1. HTML
 2. CSS
 3. Javascript
-
-## 결과 화면
-![IMG](./capture/1.png)
-![IMG](./capture/2.png)
-![IMG](./capture/3.png)
